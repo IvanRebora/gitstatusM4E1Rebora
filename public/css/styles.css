@@ -55,6 +55,8 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .hamburger-button {
@@ -93,11 +95,15 @@ body {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
+        align-items: center;
     }
 
     .copy-header {
         max-width: 350px;
-        text-align: right;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
     }
     .hamburger-button {
         display: none;
