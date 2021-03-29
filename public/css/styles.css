@@ -314,6 +314,79 @@ font-size: 16px;
     margin: auto;
 }
 
+.register{
+    background-color: white;
+    width: 100%;
+    font-family: 'Roboto';
+    text-align: center;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.control-r{
+    width: 75%;
+    padding: 10px 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.register h4{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.profile{
+    font-family: 'Roboto';
+    font-weight: mormal;
+    color: black;
+    font-size: 20px;
+}
+
+#buy{
+    text-align: center;
+}
+
+#sell{
+    text-align: center;
+}
+
+#birth_date{
+    width: 75%;
+    padding: 10px 0;
+    font-family: 'Roboto';
+    font-size: 20px;}
+
+.form-register label{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.interests{
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: black;
+    font-size: 20px;
+}
+
+.button-r{
+    background-color: #03264C;
+    color: #ffffff;
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+
 
 
 

@@ -46,7 +46,66 @@
 
     <main class="register">
         <form action="/" method="POST">
+        <div class="form-register">
+            <input type="text" name="name" placeholder="Nombre y apellido" class="control-r">
+            <input type="text" name="user" placeholder="Nombre de usuario" class="control-r">
+            <input type="email" name="email" placeholder="E-mail" class="control-r">
+            <br>
+            <label for="birth_date">Fecha de nacimiento</label>
+            <br>
+            <input type="date" name="birth_date" id="birth_date">
+            <br>
+            <input type="text" name="addres" placeholder="Domicilio" class="control-r">
+        </div>
+        <h4>Perfil del usuario</h4>
+        <div class="profile">
+            <input type="radio" name="profile" value="buy" id="buy">
+            <label for="buy">Comprador</label>
+            <input type="radio" name="profile" value="sell" id="sell">
+            <label for="sell">Vendedor</label>
+        </div>
+
+        <h4>Intereses</h4>
+        <div class="interests">
+            <div>
+                <input type="checkbox" name="interests" value="a" id="a">
+                <label for="a">Electro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="b" id="b">
+                <label for="b">Moda</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="c" id="c">
+                <label for="c">Hogar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="d" id="d">
+                <label for="d">Juguetería</label>
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="e" id="e">
+                <label for="e">Vida sana</label>
+            </div>
+        </div>
         
+        <h4>Elegí tu foto de usuario</h4>
+        <input type="file" name="avatar">
+        <br>
+        <br>
+        <div class="password-r">
+        <input type="password" name="pass" placeholder="Elegí tu contraseña" class="control-r">
+        <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" class="control-r">
+        </div>
+        <br>
+        <br>
+        <div class="button">
+        <input type="submit" value="Enviar" class="button-r">
+        <input type="reset" value="Borrar" class="button-r">
+        </div>
+        <br>
+        <br>
+        </div>
         </form>
 
     </main>
