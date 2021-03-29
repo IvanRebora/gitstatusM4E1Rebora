@@ -336,22 +336,20 @@ font-size: 16px;
     font-weight: bold;
     color: black;
     font-size: 30px;
+    text-align: left;
+    padding: 0 5%;
 }
 
 .profile{
     font-family: 'Roboto';
-    font-weight: mormal;
+    font-weight: normal;
     color: black;
     font-size: 20px;
+    text-align: left;
+    padding: 0% 15%;
 }
 
-#buy{
-    text-align: center;
-}
 
-#sell{
-    text-align: center;
-}
 
 #birth_date{
     width: 75%;
@@ -371,6 +369,8 @@ font-size: 16px;
     font-weight: normal;
     color: black;
     font-size: 20px;
+    text-align: left;
+    padding: 0 15%;
 }
 
 .button-r{
