@@ -278,6 +278,45 @@ footer i {
 }
 
 
+.login {
+    background-color: white;
+    width: 100%;
+    font-family: 'Roboto';
+    text-align: center;
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+.form-login{
+margin: 15px;
+padding: 5px 5px;
+}
+
+.control{
+width: 50%;
+padding: 10px 0;
+font-family: 'Roboto';
+font-weight: bold;
+color: black;
+font-size: 16px;
+}
+
+.boton-login{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+
+
 /*
 576
 768
