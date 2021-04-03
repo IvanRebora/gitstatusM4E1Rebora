@@ -190,6 +190,19 @@ h4 {
     margin-top: 20px;
 }
 
+.descripcion {
+    display: none;
+}
+
+main section article:hover .descripcion {
+    display: block;
+
+}
+main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
 h3, h4 {
     color: #666;
 }
@@ -197,6 +210,7 @@ h3, h4 {
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
+    transition: all 450ms;
 }
 
 main section article img{
@@ -233,12 +247,22 @@ main section article i,
 }
 
 footer {
-    background-color: #ebebeb;
+    background-color: #fffefe;
     text-align: center;
 }
 
 footer i {
     color: #1259c3;
+    transition: all 450ms;
+}
+
+footer i:hover {
+    color: #093475;
+}
+.copy-f{
+    display: none;
+    background-color: #fffefe;
+    padding-top: 15px;
 }
 
 
@@ -249,9 +273,7 @@ footer i {
     }
 
 
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+
 
     main section .productos{
         display: flex;
@@ -275,11 +297,30 @@ footer i {
     main section .productos article{
         width: 22%;
     }
+
+    footer .copy{
+        display: none;
+
+    }
+
+    .copy-f{
+        display: block;
+        text-align: center;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
 }
 
 
 .login {
-    background-color: white;
+    background-color: #ebebeb;
     width: 100%;
     font-family: 'Roboto';
     text-align: center;
@@ -312,10 +353,15 @@ font-size: 16px;
     text-align: center;
     font-size: 18px;
     margin: auto;
+    transition: all 450ms;
 }
 
-.register{
-    background-color: white;
+.boton-login:hover {
+    background-color: #0022AA;
+}
+
+.register{  
+    background-color: #ebebeb;
     width: 100%;
     font-family: 'Roboto';
     text-align: center;
@@ -327,14 +373,15 @@ font-size: 16px;
     padding: 10px 0;
     font-family: 'Roboto';
     font-weight: bold;
-    color: black;
+    color: #222222;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 .register h4{
     font-family: 'Roboto';
     font-weight: bold;
-    color: black;
+    color: #222222;
     font-size: 30px;
     text-align: left;
     padding: 0 5%;
@@ -343,7 +390,7 @@ font-size: 16px;
 .profile{
     font-family: 'Roboto';
     font-weight: normal;
-    color: black;
+    color: #222222;
     font-size: 20px;
     text-align: left;
     padding: 0% 15%;
@@ -360,14 +407,14 @@ font-size: 16px;
 .form-register label{
     font-family: 'Roboto';
     font-weight: bold;
-    color: black;
+    color: #222222;
     font-size: 30px;
 }
 
 .interests{
     font-family: 'Roboto';
     font-weight: normal;
-    color: black;
+    color: #222222;
     font-size: 20px;
     text-align: left;
     padding: 0 15%;
@@ -382,8 +429,12 @@ font-size: 16px;
     text-align: center;
     font-size: 18px;
     margin: auto;
+    transition: all 450ms;
 }
 
+.button-r:hover {
+    background-color: #0022AA;
+}
 
 
 
