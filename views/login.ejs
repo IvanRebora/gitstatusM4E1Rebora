@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <main class="login">
+        <form action="/" method="POST">
+            <div class="form-login">
+                <input type="text" name="usuario" placeholder="Nombre de usuario" class="control"> 
+            </div>
+
+            <div class="form-login">
+                <input type="password" name="password" placeholder="Contraseña" class="control">
+            </div>
+            <button type="submit" class="boton-login">Enviar</button>
+        </form>
+
+    </main>
+    <%- include('partials/footer') %>
+    <h5 class="copy-f">Copyright © 1999-2021 MercadoLiebre S.R.L.</h5>
+</body>
+</html>
